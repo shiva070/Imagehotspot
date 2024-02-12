@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Hotspots</title>
+  <style>
+ .container {
+  position: relative;
+  width: 100%;
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+
+.hotspot {
+  position: absolute;
+  width: 2%; /* Adjust size as needed */
+  height: 0;
+  padding-top: 2%; /* Adjust size as needed */
+  background-color: red; /* Adjust color as needed */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hotspot1 {
+  top: 20%;
+  left: 20%;
+}
+
+.hotspot2 {
+  top: 40%;
+  left: 50%;
+}
+
+.hotspot3 {
+  top: 60%;
+  left: 80%;
+}
+
+.hotspot4 {
+  top: 80%;
+  left: 30%;
+}
+
+.hotspot5 {
+  top: 90%;
+  left: 70%;
+}
+
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <img src="./aa.jpg" alt="Image" class="responsive-img">
+    <a href="#" class="hotspot hotspot1"></a>
+    <a href="#" class="hotspot hotspot2"></a>
+    <a href="#" class="hotspot hotspot3"></a>
+    <a href="#" class="hotspot hotspot4"></a>
+    <a href="#" class="hotspot hotspot5"></a>
+  </div>
+</body>
+</html>
